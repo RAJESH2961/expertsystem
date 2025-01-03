@@ -94,25 +94,25 @@ flowchart LR
 ![Static Badge](https://img.shields.io/badge/-numpy-cyan?style=for-the-badge&logo=numpy)
 
 ## Usage
-
-1. Clone the project:
-  
-    ```
-    git clone https://github.com/akshay-rajan/expertsystem.git
-    ```
     
-2. Navigate to the project directory:
-
-    ```
-    cd expertsystem
-    ```
-3. Create a virutal environment:
+1. Create a virutal environment:
 
     ```bash
     python -m venv myenv
     ```
+  - **Linux / MacOS**
+      
+    ```bash
+    python3 -m venv myenv
+    ```
+    
+2. Clone the project:
+  
+    ```
+    git clone https://github.com/akshay-rajan/expertsystem.git
+    ```
 
-4. Activate the virtual environment:
+3. Activate the virtual environment:
     - **Linux / MacOS**
       
       ```bash
@@ -124,7 +124,12 @@ flowchart LR
       ```bash
       .\myenv\Scripts\activate
       ```
+4. Navigate to the project directory:
 
+    ```
+    cd expertsystem
+    ```
+  
 5. Install the requirements:
 
     ```bash
